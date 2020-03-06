@@ -12,13 +12,16 @@ using namespace std;
 
 int main(int argc, const char * argv[]) {
     
-    float precio_producto = 0, precio_iva = 0;
+    int num1 = 0, num2 = 0;
     
-    cout<< "Introduce el precio del producto: "; cin>>precio_producto;
+    cout<<"Introduce un numero: "; cin>>num1;
+    cout<<"Introduce otro número: "; cin>>num2;
     
-    precio_iva = precio_producto*0.16;
-    
-    cout<< "El precio del producto con IVA es: "<<precio_iva<<endl;
+    if(num1 > num2){
+        cout<<"El número mayor es: "<<num1<<endl;
+    } else {
+        cout<<"El numero mayor es: "<<num2<<endl;
+    }
     
     return 0;
 }
