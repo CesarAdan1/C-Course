@@ -17,11 +17,7 @@ int main(int argc, const char * argv[]) {
     cout<<"Introduce un numero: "; cin>>num1;
     cout<<"Introduce otro número: "; cin>>num2;
     
-    if(num1 > num2){
-        cout<<"El número mayor es: "<<num1<<endl;
-    } else {
-        cout<<"El numero mayor es: "<<num2<<endl;
-    }
+    num1 > num2 ? cout<<"El número mayor es: "<<num1<<endl : cout<<"El numero mayor es: "<<num2<<endl;
     
     return 0;
 }
